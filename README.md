@@ -1,1 +1,1 @@
-# Floral-Managment-
+AURAbloom floral managment frontend.
