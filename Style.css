@@ -1,5 +1,5 @@
 :root{
-    --pink:#e84393;
+    --pink:#d80d6f;
 }
 
 
@@ -42,7 +42,7 @@ section{
     display: inline-block;
     margin-top: 1rem;
     border-radius: 5rem;
-    background: #333;
+    background: #e84393;
     color: #fff;
     padding: .9rem 3.5rem;
     cursor: pointer;
@@ -58,7 +58,7 @@ header{
     position: fixed;
     top: 0; left: 0; right: 0;
     background: #fff;
-    padding: 2rem 9%;
+    padding: 2rem 6%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -90,14 +90,14 @@ header .navbar a:hover{
     
 }
 
-header .icons a{
+header .navbar a{
     font-size: 2.5rem;
     color: #333;
     margin-left: 1.5rem;
 
 }
 
-header .icons a:hover{
+header .navbar a:hover{
     color:var(--pink);
 }
 
@@ -147,7 +147,7 @@ header .fa-bars{
 
 .home .content p{
     font-size: 1.5rem;
-    color: #999;
+    color: #6f6b6b;
     padding: 1rem 0;
     line-height: 1.5;
 
@@ -200,7 +200,7 @@ header .fa-bars{
 
 .about .row .content p{
     font-size: 1.5rem;
-    color: #999;
+    color: #6f6b6b;
     padding: .5rem 0;
     padding-top: 1rem;
     line-height: 1.5;
@@ -239,7 +239,7 @@ header .fa-bars{
 }
 
 .icons-container .icons span{
-    color: #555;
+    color: #6f6b6b;
     font-size: 1.3rem;
 
 }
@@ -334,7 +334,7 @@ header .fa-bars{
 
 .products .box-container .box .content .price span{
     font-size: 1.5rem;
-    color: #999;
+    color: #6f6b6b;
     font-weight: lighter;
     text-decoration: line-through;
 }
@@ -449,7 +449,7 @@ header .fa-bars{
 }
 
 .footer .box-container .box{
-    flex: 1 1 25rem;
+    flex: 1 1 18rem;
 }
 
 .footer .box-container .box h3{
@@ -471,7 +471,10 @@ header .fa-bars{
 }
 
 .footer .box-container .box img{
-    margin-top: 1rem;
+    height: 6rem;
+    width: 18rem;
+    object-fit: cover;
+    margin-right: 1rem;
 }
 
 .footer .credit{
@@ -527,7 +530,7 @@ header .fa-bars{
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     }
 
-    header .navbar a{
+    header .navbar button{
         margin: 1.5rem;
         position:1.5rem;
         background: #fff;
@@ -544,13 +547,14 @@ header .fa-bars{
         font-size: 2.5rem;
     }
 
+
     .icons-container .icons h3{
-    font-size: 2rem;
+        font-size: 2rem;
 
 }
 
-.icons-container .icons span{
-    font-size: 1.7rem;
+    .icons-container .icons span{
+        font-size: 1.7rem;
 
 }
 
